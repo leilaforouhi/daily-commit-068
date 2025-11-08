@@ -1,4 +1,4 @@
-def percentage_change(old, new):
+def percentage_change(old, ne):
     if old == 0:
         return 0
     change = ((new - old) / old) * 100
